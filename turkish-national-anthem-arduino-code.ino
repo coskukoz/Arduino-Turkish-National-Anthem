@@ -2,7 +2,6 @@
 //Turkish National Anthem              //
 //Türkiye Cumhuriyeti İstiklal Marşı   //
 //Programmer: Coşkun Kozakbaş          //
-//coskunkozakbas@gmail.com             //
 /////////////////////////////////////////
 const int buzzer = 7; // buzzer pin7 ve GND'ye bağlı
 
