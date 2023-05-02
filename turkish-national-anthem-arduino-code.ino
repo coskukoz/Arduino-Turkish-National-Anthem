@@ -1,9 +1,9 @@
 /////////////////////////////////////////
-// Turkish National Anthem              //
-// Türkiye Cumhuriyeti İstiklal Marşı   //
-// Programmer: Coşkun Kozakbaş          //
-// coskunkozakbas@gmail.com             //
+//Turkish National Anthem              //
+//Türkiye Cumhuriyeti İstiklal Marşı   //
+//Programmer: Coşkun Kozakbaş          //
 /////////////////////////////////////////
+
 const int buzzer = 7; // buzzer pin7 ve GND'ye bağlı
 
 // kullanılacak notalar
