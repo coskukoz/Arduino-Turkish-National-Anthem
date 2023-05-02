@@ -3,9 +3,10 @@
 //Türkiye Cumhuriyeti İstiklal Marşı   //
 //Programmer: Coşkun Kozakbaş          //
 /////////////////////////////////////////
+
 const int buzzer = 7; // buzzer pin7 ve GND'ye bağlı
 
-//kullanılacak notalar
+// kullanılacak notalar
 int a, ad, b, c, cd, d, dd, e, f, fd, g, gd, a2, ad2, b2, c2, cd2, d2, dd2, e2, f2, fd2, g2, gd2, a3;
 
 void setup()   
@@ -28,7 +29,7 @@ void setup()
 // b  = si
 ///////////////////////
 
-//notalara karşılık gelen frekans değerleri
+// notalara karşılık gelen frekans değerleri
 a=440;
 ad=466;
 b=494;
@@ -62,7 +63,7 @@ a3 = 1760;
 
 void loop() 
 {  
-//Korkma Sönmez Bu Şafak  
+// Korkma Sönmez Bu Şafak  
     tone(buzzer, c);
     delay(800);
     tone(buzzer, f);
@@ -79,7 +80,7 @@ void loop()
     delay(1600);        
     noTone(buzzer);
     delay(300);
-//Larda Yüzden Al Sancak
+// Larda Yüzen Al Sancak
     tone(buzzer, f);
     delay(800);        
     tone(buzzer, ad2);
@@ -94,7 +95,7 @@ void loop()
     delay(200);
     tone(buzzer, ad2);
     delay(1600);        
-//Sönmeden Yurdumun Üstünde Tüten En Son Ocak O Be
+// Sönmeden Yurdumun Üstünde Tüten En Son Ocak O Be
     tone(buzzer, c2);
     delay(200);        
     tone(buzzer, ad2);
@@ -131,7 +132,7 @@ void loop()
     delay(200);        
     tone(buzzer, dd2);
     delay(400);     
-//Nim Milletimin
+// Nim Milletimin
     tone(buzzer, dd);
     delay(200);
     tone(buzzer, d);
@@ -167,7 +168,7 @@ void loop()
     delay(200);
     tone(buzzer, f);
     delay(800);
-//Dir O Benim Milletimindir Ancak
+// Dir O Benim Milletimindir Ancak
     tone(buzzer, f2);
     delay(800);
     tone(buzzer, dd2);
@@ -191,9 +192,9 @@ void loop()
     tone(buzzer, f);
     delay(1600);
 
-/////////////ikinci kıt'a
+///////////// ikinci kıt'a
 
-//Çatma Kurban Olayım
+// Çatma Kurban Olayım
     tone(buzzer, c);
     delay(800);
     tone(buzzer, f);
@@ -210,7 +211,7 @@ void loop()
     delay(1600);        
     noTone(buzzer);
     delay(300);
-//Çehreni Ey Nazlı Hilal
+// Çehreni Ey Nazlı Hilal
     tone(buzzer, f);
     delay(800);        
     tone(buzzer, ad2);
@@ -227,7 +228,7 @@ void loop()
     delay(400);
     tone(buzzer, ad2);
     delay(800);        
-//Kahraman Irkıma Bir Gül Ne Bu Şiddet Bu Celal Sana
+// Kahraman Irkıma Bir Gül Ne Bu Şiddet Bu Celal Sana
     tone(buzzer, c2);
     delay(200);        
     tone(buzzer, ad2);
@@ -264,7 +265,7 @@ void loop()
     delay(200);        
     tone(buzzer, dd2);
     delay(400);     
-//Olmaz Dökülen
+// Olmaz Dökülen
     tone(buzzer, dd);
     delay(200);
     tone(buzzer, d);
@@ -277,7 +278,7 @@ void loop()
     delay(800);
     tone(buzzer, gd);
     delay(1600);
-//Kanlarımız Sonra Helal Hakkıdır
+// Kanlarımız Sonra Helal Hakkıdır
     tone(buzzer, c);
     delay(200);
     tone(buzzer, b);
@@ -300,7 +301,7 @@ void loop()
     delay(200);
     tone(buzzer, f);
     delay(800);
-//Hakk'a Tapan Milletimin İstiklal
+// Hakk'a Tapan Milletimin İstiklal
     tone(buzzer, f2);
     delay(800);
     tone(buzzer, dd2);
@@ -324,12 +325,12 @@ void loop()
     tone(buzzer, f);
     delay(1600);
     
-//Söz    : Mehmet Akif Ersoy
-//Beste  : Osman Zeki Üngör
+// Söz    : Mehmet Akif Ersoy
+// Beste  : Osman Zeki Üngör
 
 
     noTone(buzzer);
     delay(300);
     
-    for(;;){} //tekrar yok
+    for(;;){} // tekrar yok
 }
